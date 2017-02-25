@@ -18,7 +18,7 @@ public class Register extends HttpServlet {
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		
+		System.out.println("this change is from b2");
 		response.setContentType("text/html");
 		
 		PrintWriter pw=response.getWriter();
